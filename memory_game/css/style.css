@@ -1,11 +1,11 @@
 body {
-	font-family: Raleway, sans-serif;
+	font-family: "Raleway", sans-serif;
 	text-align: center;
 	margin: 0;
 }
 
 header {
-	font-family: Raleway, sans-serif;
+	font-family: "Raleway", sans-serif;
 	background-color: #f15b31;
 	color:#ffffff;
 	padding: 30px 20px 30px 20px;
@@ -14,8 +14,8 @@ header {
 
 
 <!--design specs for heading-->
-h1 {
-	font-family: Raleway, sans-serif;
+h1 title {
+	font-family: "Raleway", sans-serif;
 	color: #0d2c40;
 	letter-spacing: 1px;
 	font-weight: 400;
@@ -24,7 +24,7 @@ h1 {
 }
 
 nav {
-	font-family: Raleway, sans-serif;
+	font-family: "Raleway", sans-serif;
 	background-color: #00a6b3;
 	color: #ffffff;
 	padding: 20px 0px 20px 0px;
@@ -36,9 +36,14 @@ a {
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 }
-a:hover {
-	border-color: white;
+#greybackground {
+	color: grey;
 }
+
+a:hover {
+	background-color: red;
+}
+
 
 main {
 	width: 850px;
